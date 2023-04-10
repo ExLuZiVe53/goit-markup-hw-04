@@ -420,7 +420,7 @@ ul.site-nav:nth-child(2n) {
 
 .icon-svg-brands:hover {
     stroke: #404BBF;
-    fill: #404BBF;
+    /* fill: #404BBF; */
 }
 
 /* Footer */
