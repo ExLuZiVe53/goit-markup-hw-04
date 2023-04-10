@@ -10,6 +10,8 @@
     --logo-akcent-color: #F4F4FD;
     --btn-active-color: #404BBF;
     --btn-border-color: #e7e9fc;
+
+    --icon-hover-color: #404BBF;
 }
 
 /* Specialty */
@@ -259,6 +261,38 @@ ul.site-nav:nth-child(2n) {
     letter-spacing: 0.02em;
 }
 
+/* SVG-items */
+
+.item >.svg-link {
+    display: block;
+    padding: 24px 102px;
+    background-color: var(--logo-akcent-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.socials-list-link:hover {
+    background-color: var(--icon-hover-color);
+}
+
+.socials-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    padding-bottom: 32px;
+}
+
+.socials-list-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--akcent-color);
+    justify-content: center;
+    align-items: center;
+}
+
 /* Section-2 */
 .section.benefits{
     padding-bottom: 120px;
@@ -292,7 +326,7 @@ ul.site-nav:nth-child(2n) {
 }
 
 .items-container {
-    padding: 32px 16px;
+    padding: 32px 16px 8px 16px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -344,6 +378,44 @@ ul.site-nav:nth-child(2n) {
 }
 .employers-list .items{
     background-color: var(--primary-bg-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* Section-clients */
+.section.clients {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title-clients {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 72px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+.item-list-brands {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.list-item-brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 
 /* Footer */
