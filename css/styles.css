@@ -418,6 +418,11 @@ ul.site-nav:nth-child(2n) {
     border-radius: 4px;
 }
 
+.icon-svg-brands:hover {
+    stroke: #404BBF;
+    fill: #404BBF;
+}
+
 /* Footer */
 
 footer {
