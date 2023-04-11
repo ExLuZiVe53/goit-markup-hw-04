@@ -12,6 +12,7 @@
     --btn-border-color: #e7e9fc;
 
     --icon-hover-color: #404BBF;
+    --icon-green-color: #31D0AA;
 }
 
 /* Specialty */
@@ -275,6 +276,8 @@ ul.site-nav:nth-child(2n) {
     background-color: var(--icon-hover-color);
 }
 
+
+
 .socials-list {
     display: flex;
     justify-content: center;
@@ -454,6 +457,26 @@ footer {
     color: var(--logo-akcent-color);
 }
 
+.social-links-right {
+    margin-left: 120px;
+}
+
+.socials-list-link.footer:hover {
+    background-color: var(--icon-green-color);
+}
+
+.social-links-right.title {
+    text-align: start;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
 /* ========PORTFOLIO======== */
 /* main text color: #2E2F42 */
 /* secondary text color: #434455 */
