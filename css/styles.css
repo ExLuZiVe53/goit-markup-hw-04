@@ -285,8 +285,6 @@ ul.site-nav:nth-child(2n) {
     display: flex;
     justify-content: center;
     gap: 24px;
-
-    padding-bottom: 32px;
 }
 
 .socials-list-item {
