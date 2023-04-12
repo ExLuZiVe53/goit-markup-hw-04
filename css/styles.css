@@ -466,7 +466,7 @@ footer {
 
 .footer > .container-flex {
     align-items: baseline;
-    margin-right: 120px;
+    gap: 120px;
 }
 
 .logo-span.footer{
@@ -494,10 +494,6 @@ footer {
 
 .socials-list.list-footer {
     gap: 16px;
-}
-
-.social-links-right {
-    margin-left: 120px;
 }
 
 .socials-list-link.footer {
