@@ -274,12 +274,6 @@ ul.site-nav:nth-child(2n) {
     margin-bottom: 8px;
 }
 
-.socials-list-link:hover {
-    background-color: var(--icon-brands-hover-color);
-}
-
-
-
 .socials-list {
     display: flex;
     justify-content: center;
@@ -296,6 +290,10 @@ ul.site-nav:nth-child(2n) {
     background-color: var(--akcent-color);
     justify-content: center;
     align-items: center;
+}
+
+.socials-list-link:hover {
+    background-color: var(--icon-brands-hover-color);
 }
 
 /* Section-2 */
@@ -412,24 +410,29 @@ ul.site-nav:nth-child(2n) {
     justify-content: center;
     gap: 24px;
 }
-.list-item-brands {
+.list-link-brands {
+    color: var(--icon-brands-color);
+
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 168px;
     height: 88px;
-    border: 1px solid #8E8F99;
+    border: 1px solid var(--icon-brands-color);
     border-radius: 4px;
 }
 
 .icon-svg-brands {
-    fill: var(--icon-brands-color);
+    fill: currentColor;
 }
 
-.icon-svg-brands:hover,
-.icon-svg-brands:focus {
-    fill: var(--icon-brands-hover-color);
+
+
+.list-link-brands:hover,
+.list-link-brands:focus {
+    border-color: var(--icon-brands-hover-color);
+    color: var(--icon-brands-hover-color);
 }
 
 /* Footer */
