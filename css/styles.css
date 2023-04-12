@@ -14,6 +14,7 @@
     --icon-brands-hover-color: #404BBF;
     --icon-green-color: #31D0AA;
     --icon-brands-color: #8E8F99;
+    --socials-icon-color: #f4f4fd;
 }
 
 /* Specialty */
@@ -274,7 +275,7 @@ ul.site-nav:nth-child(2n) {
     height: 112px;
 
     background-color: var(--logo-akcent-color);
-    
+
     border-radius: 4px;
     margin-bottom: 8px;
 }
@@ -287,17 +288,29 @@ ul.site-nav:nth-child(2n) {
     padding-bottom: 32px;
 }
 
-.socials-list-link {
-    display: flex;
+.socials-list-item {
     width: 40px;
     height: 40px;
+}
+
+.socials-list-link {
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+
     border-radius: 50%;
     background-color: var(--akcent-color);
     justify-content: center;
     align-items: center;
 }
 
-.socials-list-link:hover {
+.socials-icons {
+    fill: var(--socials-icon-color);
+}
+
+.socials-list-link:hover,
+.socials-list-link {
     background-color: var(--icon-brands-hover-color);
 }
 
@@ -334,7 +347,8 @@ ul.site-nav:nth-child(2n) {
 }
 
 .items-container {
-    padding: 32px 16px 8px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -387,6 +401,7 @@ ul.site-nav:nth-child(2n) {
 .employers-list .items{
     background-color: var(--primary-bg-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* Section-clients */
