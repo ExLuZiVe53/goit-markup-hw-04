@@ -13,8 +13,9 @@
 
     --icon-brands-hover-color: #404BBF;
     --icon-green-color: #31D0AA;
-    --icon-brands-color: #8E8F99;
+    --icon-brands-color: #AFB1B8;
     --socials-icon-color: #f4f4fd;
+    --icon-brands-color-border: #8E8F99;
 }
 
 /* Specialty */
@@ -310,7 +311,7 @@ ul.site-nav:nth-child(2n) {
 }
 
 .socials-list-link:hover,
-.socials-list-link {
+.socials-list-link:focus {
     background-color: var(--icon-brands-hover-color);
 }
 
@@ -417,7 +418,7 @@ ul.site-nav:nth-child(2n) {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -439,7 +440,7 @@ ul.site-nav:nth-child(2n) {
 
     width: 168px;
     height: 88px;
-    border: 1px solid var(--icon-brands-color);
+    border: 1px solid var(--icon-brands-color-border);
     border-radius: 4px;
 }
 
@@ -462,6 +463,11 @@ footer {
     padding-top: 100px;
     padding-bottom: 100px;
 } 
+
+.container.container-flex {
+    align-items: baseline;
+    margin-right: 120px;
+}
 
 .logo-span.footer{
     color: var(--logo-akcent-color);
@@ -486,11 +492,20 @@ footer {
     color: var(--logo-akcent-color);
 }
 
+.footer > .list-footer {
+    gap: 16px;
+}
+
 .social-links-right {
     margin-left: 120px;
 }
 
-.socials-list-link.footer:hover {
+.socials-list-link.footer {
+    background-color: var(--akcent-color);
+}
+
+.socials-list-link.footer:hover, 
+.socials-list-link.footer:focus {
     background-color: var(--icon-green-color);
 }
 
@@ -547,6 +562,7 @@ footer {
     background-color:  var(--btn-active-color);
     color: var(--primary-bg-color);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Section-Galery */
@@ -559,6 +575,15 @@ footer {
 
 .galery-list .item {
     width: calc((100% - 48px) / 3);
+}
+
+.galery-link {
+    display: block;
+}
+
+.galery-link:hover, 
+.galery-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .title-galery {
