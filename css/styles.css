@@ -11,8 +11,9 @@
     --btn-active-color: #404BBF;
     --btn-border-color: #e7e9fc;
 
-    --icon-hover-color: #404BBF;
+    --icon-brands-hover-color: #404BBF;
     --icon-green-color: #31D0AA;
+    --icon-brands-color: #8E8F99;
 }
 
 /* Specialty */
@@ -274,7 +275,7 @@ ul.site-nav:nth-child(2n) {
 }
 
 .socials-list-link:hover {
-    background-color: var(--icon-hover-color);
+    background-color: var(--icon-brands-hover-color);
 }
 
 
@@ -422,9 +423,13 @@ ul.site-nav:nth-child(2n) {
     border-radius: 4px;
 }
 
-.icon-svg-brands:hover {
-    stroke: #404BBF;
-    /* fill: #404BBF; */
+.icon-svg-brands {
+    fill: var(--icon-brands-color);
+}
+
+.icon-svg-brands:hover,
+.icon-svg-brands:focus {
+    fill: var(--icon-brands-hover-color);
 }
 
 /* Footer */
